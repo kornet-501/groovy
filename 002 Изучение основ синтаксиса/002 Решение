@@ -1,3 +1,5 @@
+Переменные и типы данных:
+
 static void main(String[] args) {
     def name = "Данил"
     def age = 24
@@ -5,3 +7,9 @@ static void main(String[] args) {
     def favoriteColor = "Space"
     println "Меня зовут $name, мне $age года, мой рост $height см, и мой любимый цвет $favoriteColor."
 }
+
+Условные выражения:
+
+Циклы:
+
+Методы и функции:
