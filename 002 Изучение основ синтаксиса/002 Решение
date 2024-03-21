@@ -157,3 +157,35 @@ for (int i = 1; i <= userInput; i++) {
 }
 
 Методы и функции:
+
+Задача № 1
+
+def calculateSum(int num1, int num2) { // имя метода
+    def sum = num1 + num2 // выражение, которое складывает два переданных аргумента и сохраняет результат в переменной sum
+    return sum // оператор return, который возвращает сумму num1 и num2 в вызывающий код
+}
+
+// Проверка и вызов метода calculateSum с аргументами 5 и 3
+def result = calculateSum(5, 3)
+println("Сумма: $result")
+
+Задача № 2
+
+def calculateFactorial(int number) {
+    if (number < 0) {
+        return "Факториал не определен для отрицательных чисел"
+    } else if (number == 0 || number == 1) {
+        return 1
+    } else {
+        def factorial = 1
+        for (int i = 2; i <= number; i++) {
+            factorial *= i
+        }
+        return factorial
+    }
+}
+
+// Пример вызова функции calculateFactorial
+def result = calculateFactorial(5)
+println("Факториал числа 5: $result")
+
