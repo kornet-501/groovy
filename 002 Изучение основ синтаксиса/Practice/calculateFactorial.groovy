@@ -12,7 +12,7 @@ def calculateFactorial(int number) {
     }
 }
 
-// Пример вызова функции calculateFactorial
+// Пример вызова функции calculateFactorотial
 def result = calculateFactorial(5)
 println("Факториал числа 5: $result")
 
